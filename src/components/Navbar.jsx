@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">PaleVoice</Link>
+        <Link className="navbar-brand" to="/">My Store</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -18,7 +18,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
-            {/* Other navigation links here */}
+          
             {currentUser && (
               <li className="nav-item">
                 <Link className="nav-link" to="/profile">Profile</Link>
